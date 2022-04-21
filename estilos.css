@@ -1,0 +1,75 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    background-color: rgba(0,0,0,0.8);
+}
+.Main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top:20px;
+    width: 100%;
+    color:white;
+}
+
+.Titulo{
+    font-family:lato,sans-serif;
+    font-family: 30px;
+}
+.Titulo h1{
+    text-align: center;
+}
+
+.contenedor-texto{
+    font-family:lato,sans-serif;
+    font-family: 20px;
+    margin-top: 15px;
+}
+
+.contenedor-texto .titulo{
+    color: yellow;
+    
+}
+.contenedor-texto .titulo span{
+    color: white;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.mascota{
+    font-weight: 300;
+    color:yellow;
+    font-size: 30px;
+}
+.mensaje{
+    font-family:lato,sans-serif;
+    color:yellow;
+    text-shadow: 0px 0px 6px white;
+
+}
+.mensaje h2{
+    text-align: center;
+}
+
+@media (max-width: 420px){
+    .Titulo{
+        font-family:lato,sans-serif;
+        font-family: 10px;
+    }
+
+    .Titulo h1{
+        text-align: center;
+        font-family: 10px;
+        color:yellow;
+        text-shadow: 0px 0px 6px white;
+    }
+
+
+
+
+}
+
